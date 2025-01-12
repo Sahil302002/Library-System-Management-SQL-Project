@@ -1,11 +1,10 @@
-# Library-System-Management-SQL-Project
 # **Library System Management SQL Project - Task-Wise Summary**
 
 This library system management project, executed on **SQL Server**, integrates advanced SQL concepts crucial for a **Data Analyst** to efficiently manage, analyze, and automate database operations. Below are the **advanced concepts** used throughout the project:
 
-1. **SQL Operations for Data Manipulation**:
+###1. **SQL Operations for Data Manipulation**:
     - **INSERT**, **UPDATE**, **DELETE**: These basic operations were used to manipulate records in tables (e.g., adding books, updating member information, and removing issued records). This fundamental knowledge is vital for a data analyst to modify and clean data as required.
-2. **Complex Joins**:
+###2. **Complex Joins**:
     - **INNER JOIN**, **LEFT JOIN**: Used to combine multiple related tables (e.g., linking **books**, **issued_status**, and **members**), which is essential for data analysts to retrieve consolidated datasets for analysis.
 3. **Aggregation & Grouping**:
     - **GROUP BY**, **COUNT**, **SUM()**: Aggregating data, such as counting books issued per member or calculating rental income by book category. This helps in deriving insights from raw data, an important skill for data analysts.

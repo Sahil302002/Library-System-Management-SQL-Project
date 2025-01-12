@@ -2,30 +2,36 @@
 
 This library system management project, executed on **SQL Server**, integrates advanced SQL concepts crucial for a **Data Analyst** to efficiently manage, analyze, and automate database operations. Below are the **advanced concepts** used throughout the project:
 
-1. # **SQL Operations for Data Manipulation**:
+1. ### **SQL Operations for Data Manipulation**:
     - **INSERT**, **UPDATE**, **DELETE**: These basic operations were used to manipulate records in tables (e.g., adding books, updating member information, and removing issued records). This fundamental knowledge is vital for a data analyst to modify and clean data as required.
     
-2. **Complex Joins**:
+2. ### **Complex Joins**:
     - **INNER JOIN**, **LEFT JOIN**: Used to combine multiple related tables (e.g., linking **books**, **issued_status**, and **members**), which is essential for data analysts to retrieve consolidated datasets for analysis.
     
-3. **Aggregation & Grouping**:
+3.### **Aggregation & Grouping**:
     - **GROUP BY**, **COUNT**, **SUM()**: Aggregating data, such as counting books issued per member or calculating rental income by book category. This helps in deriving insights from raw data, an important skill for data analysts.
     - 
-4. **CTAS (Create Table as Select)**:
+4. ### **CTAS (Create Table as Select)**:
     - **CTAS** queries were used to create new summary tables from existing data, such as **Total_Books_Issued_by_Each_Book** and **Active Members**. This allows for efficient data extraction and transformation to build reporting tables for further analysis.
-5. **Advanced Filtering with `WHERE` and Date Functions**:
+    
+5. ### **Advanced Filtering with `WHERE` and Date Functions**:
     - **DATEADD**, **DATEDIFF**, and conditional **WHERE** clauses: Used to filter records based on dates (e.g., finding members registered in the last 300 days or identifying overdue books). This type of filtering is essential for time-based analysis in data analytics.
-6. **Stored Procedures**:
+      
+6. ### **Stored Procedures**:
     - Used for encapsulating business logic, such as updating book status on return. **Stored procedures** automate repetitive tasks and ensure transactional integrity, making them valuable for any data analyst working with large databases.
-7. **Performance Ranking and Metrics**:
+      
+7. ### **Performance Ranking and Metrics**:
     - Ranking employees based on the number of processed book issues. **Ranking functions** like `ROW_NUMBER()` or `RANK()` would be typically used for performance metrics analysis, which is an advanced task for data analysts who need to extract business insights.
-8. **Data Profiling & Risk Assessment**:
+      
+8. ### **Data Profiling & Risk Assessment**:
     - Advanced **data profiling** techniques were applied to identify high-risk books and members. This involves grouping and filtering large datasets to identify patterns and potential issues, an important skill for risk analysis in a data-driven role.
-9. **Error Handling and Conditional Updates**:
+9. ### **Error Handling and Conditional Updates**:
     - Use of **CASE** statements and **error handling** in stored procedures for updating book status and managing transactional data. These conditional updates ensure data accuracy and consistency, crucial for data analysts to maintain clean and valid datasets.
-10. **Fine and Penalty Calculation**:
+      
+10. ### **Fine and Penalty Calculation**:
     - **Analytical problem-solving** with calculated columns for fines based on overdue books. This concept is often used in data analysis to perform business-specific calculations based on predefined rules.
-11. **Multi-Table Joins for Relational Data Extraction**:
+
+11. ### **Multi-Table Joins for Relational Data Extraction**:
     - Combining data from multiple related tables (e.g., employee and branch information) using **multi-table joins**. This is key for data analysts to work with relational databases and derive insights from interconnected data sources.
 
 By applying these **advanced SQL concepts**, this project demonstrates how a **Data Analyst** can use SQL Server to automate, manage, and extract meaningful insights from complex relational databases, ensuring accurate reporting and data-driven decision-making.

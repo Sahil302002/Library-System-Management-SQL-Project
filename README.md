@@ -1,5 +1,8 @@
 # **Library System Management SQL Project - Task-Wise Summary**
 
+![Library_Image](https://github.com/user-attachments/assets/2dfb80e2-ded0-4848-aef4-2c3d5a955105)
+
+
 This library system management project, executed on **SQL Server**, integrates advanced SQL concepts crucial for a **Data Analyst** to efficiently manage, analyze, and automate database operations. Below are the **advanced concepts** used throughout the project:
 
 1. ### **SQL Operations for Data Manipulation**:

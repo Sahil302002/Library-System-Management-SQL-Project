@@ -142,7 +142,6 @@ By applying these **advanced SQL concepts**, this project demonstrates how a **D
     - Working with dates and conditional logic.
     - Joining and querying relational databases.
 
----
 
 ### **Task 14: Update Book Status on Return**
 
@@ -155,8 +154,6 @@ By applying these **advanced SQL concepts**, this project demonstrates how a **D
     - Handling dynamic updates in relational databases.
     - Managing transactional integrity.
 
----
-
 ### **Task 15: Branch Performance Report**
 
 - **Concepts Used:**
@@ -168,7 +165,6 @@ By applying these **advanced SQL concepts**, this project demonstrates how a **D
     - Aggregating and presenting data from multiple sources.
     - Performance analysis and metrics computation.
 
----
 
 ### **Task 16: Create a Table of Active Members**
 
@@ -180,7 +176,6 @@ By applying these **advanced SQL concepts**, this project demonstrates how a **D
     - Using CTAS for efficient table creation.
     - Time-based filtering and analysis.
 
----
 
 ### **Task 17: Find Employees with the Most Book Issues Processed**
 
@@ -193,7 +188,6 @@ By applying these **advanced SQL concepts**, this project demonstrates how a **D
     - Data aggregation and comparison.
     - Applying business rules for recognition.
 
----
 
 ### **Task 18: Identify Members Issuing High-Risk Books**
 
@@ -206,7 +200,6 @@ By applying these **advanced SQL concepts**, this project demonstrates how a **D
     - Data profiling and quality checks.
     - Advanced querying for business insights.
 
----
 
 ### **Task 19: Stored Procedure for Book Status Management**
 
@@ -219,7 +212,6 @@ By applying these **advanced SQL concepts**, this project demonstrates how a **D
     - Dynamic database management.
     - Implementing business processes in SQL.
 
----
 
 ### **Task 20: CTAS for Overdue Books and Fines**
 
@@ -232,6 +224,5 @@ By applying these **advanced SQL concepts**, this project demonstrates how a **D
     - Fine and penalty calculation based on business rules.
     - Creating structured, reusable data models.
 
----
 
 This summary highlights the **conceptual understanding** and **practical SQL And Advance SQL skills** involved in these tasks, demonstrating proficiency in managing, analyzing, and automating relational database operations.

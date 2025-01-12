@@ -8,7 +8,7 @@ This library system management project, executed on **SQL Server**, integrates a
 2. ### **Complex Joins**:
     - **INNER JOIN**, **LEFT JOIN**: Used to combine multiple related tables (e.g., linking **books**, **issued_status**, and **members**), which is essential for data analysts to retrieve consolidated datasets for analysis.
     
-3.### **Aggregation & Grouping**:
+3. ### **Aggregation & Grouping**:
     - **GROUP BY**, **COUNT**, **SUM()**: Aggregating data, such as counting books issued per member or calculating rental income by book category. This helps in deriving insights from raw data, an important skill for data analysts.
     - 
 4. ### **CTAS (Create Table as Select)**:

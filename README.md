@@ -5,7 +5,7 @@ This library system management project, executed on **SQL Server**, integrates a
 ###1. **SQL Operations for Data Manipulation**:
     - **INSERT**, **UPDATE**, **DELETE**: These basic operations were used to manipulate records in tables (e.g., adding books, updating member information, and removing issued records). This fundamental knowledge is vital for a data analyst to modify and clean data as required.
     
-###2. **Complex Joins**:
+### 2. **Complex Joins**:
     - **INNER JOIN**, **LEFT JOIN**: Used to combine multiple related tables (e.g., linking **books**, **issued_status**, and **members**), which is essential for data analysts to retrieve consolidated datasets for analysis.
     
 ###3. **Aggregation & Grouping**:

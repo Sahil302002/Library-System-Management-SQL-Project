@@ -134,6 +134,8 @@ By applying these **advanced SQL concepts**, this project demonstrates how a **D
     - Added a **book_quality** column to the **return_status** table with a default value of **'Good'**.
     - Updated the **book_quality** column for certain **issued_ids** to reflect the condition of the books as **'Damaged'**.
 
+## **Advance SQL Operations:**
+
 ### **Task 13: Identify Members with Overdue Books**
 
 - **Concepts Used:**

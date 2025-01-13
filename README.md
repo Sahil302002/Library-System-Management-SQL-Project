@@ -39,6 +39,34 @@ This library system management project, executed on **SQL Server**, integrates a
 
 By applying these **advanced SQL concepts**, this project demonstrates how a **Data Analyst** can use SQL Server to automate, manage, and extract meaningful insights from complex relational databases, ensuring accurate reporting and data-driven decision-making.
 
+# Establishing Referential Integrity and Finalizing ER Diagram for Library Management System
+
+To create the ER diagram for the data model, the following steps were taken:
+
+1. **Adding Foreign Key Constraints**:
+    
+    Relationships between tables were established by adding foreign key constraints:
+    
+    - `issued_status.issued_member_id` → `members.member_id`
+    - `issued_status.issued_book_isbn` → `books.isbn`
+    - `issued_status.issued_emp_id` → `employees.emp_id`
+    - `employees.branch_id` → `branch.branch_id`
+    - `return_status.issued_id` → `issued_status.issued_id`
+2. **Resolving Referential Integrity Issues**:
+    - While adding the constraint `return_status.issued_id` → `issued_status.issued_id`, an error occurred because some `issued_id` values in `return_status` were not present in `issued_status`.
+    - These invalid records were identified and removed using:
+        
+        ```sql
+        DELETE FROM return_status
+        WHERE issued_id NOT IN (SELECT issued_id FROM issued_status);
+        ```
+        
+3. **Finalizing the Model**:
+    - After cleaning the data, all foreign key constraints were successfully added, ensuring proper relationships among tables.
+    - The resulting ER diagram reflects the updated data model with consistent relationships.
+
+The ER diagram now accurately represents the database structure and its relationships.
+
 ### **Task 1: Create a New Book Record**
 
 - **Objective**: Add a new book titled **"To Kill a Mockingbird"** into the **books** table.

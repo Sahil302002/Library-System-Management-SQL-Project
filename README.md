@@ -67,6 +67,9 @@ To create the ER diagram for the data model, the following steps were taken:
 
 The ER diagram now accurately represents the database structure and its relationships.
 
+![EDR Diagram 1](https://github.com/user-attachments/assets/e7a8eaab-80cb-4cf2-914b-97b5a21d34f8)
+
+
 ### **Task 1: Create a New Book Record**
 
 - **Objective**: Add a new book titled **"To Kill a Mockingbird"** into the **books** table.

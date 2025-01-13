@@ -124,7 +124,8 @@ By applying these **advanced SQL concepts**, this project demonstrates how a **D
     - **LEFT JOIN** operation to include all records from **issued_status** and matching records from **return_status**.
     - Identification of **NULL** values in the **return_id** column to find books not returned yet.
 
----
+![ER_Diagram_Phoo after Basic 12 Tasks ](https://github.com/user-attachments/assets/805d1c67-7b90-43cb-b31b-1afdf8ff2c62)
+
 
 ### **Additional Operations:**
 

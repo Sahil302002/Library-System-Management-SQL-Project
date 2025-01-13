@@ -260,6 +260,10 @@ The ER diagram now accurately represents the database structure and its relation
     - Analytical problem-solving in SQL.
     - Fine and penalty calculation based on business rules.
     - Creating structured, reusable data models.
+      
+### ** Final ER Diagram **
+
+![Final ER diagram](https://github.com/user-attachments/assets/db534494-1d6c-4550-93f1-8dd765a2d03a)
 
 
 This summary highlights the **conceptual understanding** and **practical SQL And Advance SQL skills** involved in these tasks, demonstrating proficiency in managing, analyzing, and automating relational database operations.
